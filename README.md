@@ -93,5 +93,9 @@ O script é executado em modo debug com `app.run(debug=True)` quando executado d
 - Certifique-se de que informações sensíveis, como chaves de API e credenciais do banco de dados, sejam gerenciadas de forma segura e não estejam hardcoded no código.
 - Considere usar variáveis de ambiente ou uma ferramenta de gerenciamento de configuração para gerenciar informações sensíveis.
 
+## Internacionalização
+> :AVISO IMPORTANTE: **SOBRE AS CONSULTAS**: Preferencialmente na Língua -> EN-US
+- O sistema LLM e Text2SQL foi desenvolvido para trabalhar com um banco de dados inteiramente em inglês. Devido a algumas traduções, certas pesquisas podem não ser completas ou precisas devido a erros de tradução. Isso ocorre porque a tradução automática pode não capturar corretamente o contexto ou os termos técnicos específicos usados nas consultas e no esquema do banco de dados. Para minimizar esses problemas, é recomendável usar termos e perguntas em inglês sempre que possível.
+
 ## Resumo do teste.
 - Foi um desafio pois com esse modelo minimizamos a forma de gerar consultas e deixamos a IA gerar os cruzamentos de informações e extração de forma que o sistema fique mais independente. Obrigado ao time de seleção da Laborit por propor esse desafio.
